@@ -1,0 +1,27 @@
+{
+  "name": "harness-macos",
+  "version": "1.0.0",
+  "description": "Unofficial macOS menu-bar harness for Mistral Vibe (chat.mistral.ai)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Boris Kirov",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "45.2.1",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "com.boriskirov.harness-macos",
+    "productName": "Harness",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "build/icon.icns",
+      "identity": null,
+      "target": "dmg"
+    },
+    "files": ["main.js", "build/**/*", "LICENSE"]
+  }
+}
