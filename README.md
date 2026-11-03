@@ -1,6 +1,6 @@
 # Harness-macos
 
-Unofficial macOS menu-bar app for Mistral Vibe (chat.mistral.ai) — Electron harness with persistent login, global hotkey (⌘⇧M), and recent-chats menu.
+Unofficial macOS menu-bar and dock app for Mistral Vibe (chat.mistral.ai) — Electron harness with persistent login, global hotkey (⌘⇧M), and recent-chats menu.
 
 <img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/a21bcfb9-35d1-4171-8787-00a2f5e8f5c5" />
 
